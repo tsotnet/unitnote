@@ -16,5 +16,8 @@ module.exports = {
             }
         ]
     },
-    target: "electron"
+    target: "electron",
+    resolve: {
+        extensions: ["", ".js", ".jsx"]
+    }
 };
